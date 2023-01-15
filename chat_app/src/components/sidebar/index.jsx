@@ -1,14 +1,14 @@
 import React from 'react'
-import Chat from '../chat'
+import ProfileCard from '../profileCard'
 import Search from '../search'
 import SidebarHeader from './sidebarHeader'
 
 const SideBar = () => {
   return (
-    <div className='w-1/4 bg-purple-700 rounded-tl-xl absolute h-5/6 rounded-bl-xl'>
+    <div className=' bg-purple-700 rounded-tl-xl  h-5/6 rounded-bl-xl'>
       <SidebarHeader />
       <Search/>
-      <Chat/>
+      <ProfileCard />
     </div>
   )
 }
